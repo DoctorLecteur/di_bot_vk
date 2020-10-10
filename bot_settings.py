@@ -31,7 +31,7 @@ def open_data():
     data_file = graf.text_file()
     return data_file
 
-token = "608ecae2446e52b11badce3da7f63883c6198cce7d8487c79b6802e9cfea2fadef577945ce849bf2ade4a"
+token = TOKEN
 
 vk_session = vk_api.VkApi(token=token)
 vk = vk_session.get_api()
